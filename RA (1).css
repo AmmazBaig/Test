@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+    color: #e0e0e0;
+}
+
+header {
+    background: #00c3ff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #00aaff;
+    box-shadow: 0 0 15px rgba(0, 195, 255, 0.8);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ff3cac;
+    text-shadow: 0 0 10px #ff3cac, 0 0 20px #ff3cac;
+}
+
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #1b1b1f;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 195, 255, 0.5);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #00c3ff;
+    border-bottom: 3px solid #00c3ff;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+
+.offer-box {
+    background: #2b2b2b;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 195, 255, 0.3);
+}
+
+.offer-box h3 {
+    color: #00c3ff;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+a {
+    color: #00c3ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff3cac;
+    text-shadow: 0 0 5px #ff3cac, 0 0 10px #ff3cac;
+}
+
+footer {
+    background: #1b1b1f;
+    color: #00c3ff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid #00c3ff;
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    box-shadow: 0 -5px 10px rgba(0, 195, 255, 0.8);
+}
+
+.gaming-image {
+    display: block;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 195, 255, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.gaming-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px rgba(0, 195, 255, 1);
+}
+
+.social-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-button.twitter {
+    background-color: #1da1f2;
+    box-shadow: 0 0 15px rgba(29, 161, 242, 0.8);
+}
+
+.social-button.twitter:hover {
+    background-color: #188cd6;
+}
+
+.social-button.instagram {
+    background-color: #e4405f;
+    box-shadow: 0 0 15px rgba(228, 64, 95, 0.8);
+}
+
+.social-button.instagram:hover {
+    background-color: #cc3854;
+}
+
+.social-button.gmail {
+    background-color: #db4437;
+    box-shadow: 0 0 15px rgba(219, 68, 55, 0.8);
+}
+
+.social-button.gmail:hover {
+    background-color: #c1351d;
+}
